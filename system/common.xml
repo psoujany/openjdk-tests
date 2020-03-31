@@ -29,8 +29,7 @@
 	</condition>
 	<condition property="openj9_systemtest_branch" value="${env.OPENJ9_SYSTEMTEST_BRANCH}" else="master">
 		<isset property="env.OPENJ9_SYSTEMTEST_BRANCH"/>
-	</condition>
-	-->
+	</condition> -->
 	
 	<condition property="stf_repo" value="${env.STF_REPO}" else="${git-prefix}://github.com/AdoptOpenJDK/stf.git">
 		<isset property="env.STF_REPO"/>
@@ -153,8 +152,7 @@
 			</then>
 		</if>
 		<checkGitRepoSha repoDir="${SYSTEMTEST_ROOT}/openj9-systemtest" />
-	</target>
-	-->
+	</target> -->
 	
 	<target name="check_systemtest" depends="common_init">
 		<if>
