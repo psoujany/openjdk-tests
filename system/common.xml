@@ -119,41 +119,6 @@
 		<checkGitRepoSha repoDir="${SYSTEMTEST_ROOT}/openjdk-systemtest" />
 	</target>
 	
-	<!--
-	<target name="clone_openj9-systemtest">
-		<echo message="Cloning from: ${openj9_systemtest_repo} -b ${openj9_systemtest_branch}"/>
-		<exec executable="git" failonerror="false" dir="${SYSTEMTEST_ROOT}">
-			<arg value="clone" />
-			<arg value="--depth" />
-			<arg value="1" />
-			<arg value="-b"/>
-			<arg value="${openj9_systemtest_branch}"/>
-			<arg value="${openj9_systemtest_repo}"/>
-		</exec>
-		<if>
-			<isset property="isZOS" />
-			<then>
-				<delete includeemptydirs="true" failonerror="false">
-				   <fileset dir="${SYSTEMTEST_ROOT}/openj9-systemtest/.git/info" includes="**/*"/>
-				</delete>  
-				<mkdir dir="${SYSTEMTEST_ROOT}/openj9-systemtest/.git/info" />
-				<move file="${SYSTEMTEST_ROOT}/openj9-systemtest/.gitattributes.zos" tofile="${SYSTEMTEST_ROOT}/openj9-systemtest/.git/info/attributes" /> 
-				<exec executable="git" dir="${SYSTEMTEST_ROOT}/openj9-systemtest" failonerror="false">
-					<arg value="rm" />
-					<arg value="--cached" />
-					<arg value="-r" />
-					<arg value="-q" />
-					<arg value="." />
-				</exec>
-				<exec executable="git" dir="${SYSTEMTEST_ROOT}/openj9-systemtest" failonerror="false">
-					<arg value="reset" />
-					<arg value="--hard" />
-				</exec>
-			</then>
-		</if>
-		<checkGitRepoSha repoDir="${SYSTEMTEST_ROOT}/openj9-systemtest" />
-	</target> -->
-	
 	<target name="check_systemtest" depends="common_init">
 		<if>
 			<not>
