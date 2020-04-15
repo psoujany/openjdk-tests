@@ -51,12 +51,7 @@
 	</condition>
 	<target name="stage_jck_material">
 		<!-- Starting downloading or updating JCK materials based on JCK GIT REPO and JCK VERSION-->
-		<if>
-			<not>
-				<available file="${JCK_ROOT_USED}" type="dir" />
-			</not>
-			<!-- jck materials don't exist, download them -->
-			<then>
+		
 				<echo message="${JCK_ROOT_USED} does not exist, 
 					clone from ${JCK_GIT_REPO_USED}, ${jck_branch} branch, to ${JCK_ROOT_USED}" />
 				<mkdir dir="${JCK_ROOT_USED}/.." />
@@ -67,23 +62,7 @@
 					<arg value="${jck_branch}"/>
 					<arg value="${JCK_GIT_REPO_USED}" />
 				</exec>
-			</then>
-			<!-- jck materials exist, update jck materials if needed-->
-			<else>
-				<echo message="Running git clean at ${JCK_ROOT_USED}..." />
-				<exec executable="git" dir="${JCK_ROOT_USED}" failonerror="true">
-					<arg value="clean" />
-					<arg value="-d" />
-					<arg value="--force" />
-					<arg value="--quiet" />
-				</exec>
-				<echo message="Updating ${JCK_ROOT_USED} with latest..." />
-				<exec executable="git" dir="${JCK_ROOT_USED}" failonerror="true">
-					<arg value="pull" />
-				</exec>
-			</else>
 			
-		</if>
 		<if>
 			<isset property="isZOS" />
 			<then>
