@@ -54,7 +54,7 @@ ifndef JCK_VERSION
 endif
 
 ifndef JCK_ROOT
-  export JCK_ROOT=$(TEST_ROOT)/../../../jck_root/JCK$(JDK_VERSION)-unzipped
+  export JCK_ROOT=$(TEST_ROOT)/../../../jck_root/JCK$(JDK_VERSION)b-unzipped
 endif
 
 SYSTEMTEST_RESROOT=$(TEST_RESROOT)/../../system
