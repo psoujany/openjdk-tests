@@ -47,7 +47,7 @@ endif
 
 ifndef JCK_VERSION
   ifeq (8, $(JDK_VERSION))
-    export JCK_VERSION=jck8c
+    export JCK_VERSION=jck8b
   else
     export JCK_VERSION=jck$(JDK_VERSION)
   endif
