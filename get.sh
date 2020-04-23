@@ -459,6 +459,7 @@ testJavaVersion()
 if [[ $TEST_JDK_HOME == "" ]]; then
 	TEST_JDK_HOME=$SDKDIR/openjdkbinary/j2sdk-image
 fi
+chmod -R 777 ${TEST_JDK_HOME}
 _java=${TEST_JDK_HOME}/bin/java
 if [ -x ${_java} ]; then
 	echo "Run ${_java} -version"

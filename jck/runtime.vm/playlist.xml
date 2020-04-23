@@ -57,7 +57,7 @@
 			<group>jck</group>
 		</groups>
 		<impls>
-			<impl>hotspot</impl>
+			<impl>ibm</impl>
 		</impls>
 	</test>
 	<test>
@@ -75,7 +75,6 @@
 		</groups>
 		<impls>
 			<impl>openj9</impl>
-			<impl>ibm</impl>
 		</impls>
 	</test>
 	<test>
@@ -106,7 +105,7 @@
 			<group>jck</group>
 		</groups>
 		<subsets>
-			<subset>10+</subset>
+			<subset>8</subset>
 		</subsets>
 	</test>
 	<test>
@@ -158,7 +157,7 @@
 			<group>jck</group>
 		</groups>
 		<subsets>
-			<subset>10+</subset>
+			<subset>8</subset>
 		</subsets>
 	</test>
 	<test>

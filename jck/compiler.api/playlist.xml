@@ -28,7 +28,7 @@
 			<group>jck</group>
 		</groups>
 		<subsets>
-			<subset>11</subset>
+			<subset>8</subset>
 		</subsets>
 	</test>
 	<test>
@@ -45,7 +45,7 @@
 			<group>jck</group>
 		</groups>
 		<subsets>
-			<subset>11</subset>
+			<subset>8</subset>
 		</subsets>
 	</test>
 	<test>
@@ -62,7 +62,7 @@
 			<group>jck</group>
 		</groups>
 		<subsets>
-			<subset>11</subset>
+			<subset>8</subset>
 		</subsets>
 	</test>
 	<test>
@@ -79,7 +79,7 @@
 			<group>jck</group>
 		</groups>
 		<subsets>
-			<subset>11</subset>
+			<subset>8</subset>
 		</subsets>
 	</test>
 	<test>
@@ -98,7 +98,7 @@
 			<group>jck</group>
 		</groups>
 		<subsets>
-			<subset>11</subset>
+			<subset>8</subset>
 		</subsets>
 	</test>	
 </playlist>
