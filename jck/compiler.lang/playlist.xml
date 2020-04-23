@@ -29,6 +29,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -46,6 +47,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -63,6 +65,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -80,6 +83,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -97,6 +101,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -114,6 +119,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -131,6 +137,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -148,6 +155,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -165,6 +173,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -182,6 +191,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -199,6 +209,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -216,6 +227,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -233,6 +245,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -250,6 +263,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -267,6 +281,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -284,6 +299,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -301,6 +317,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -318,6 +335,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -335,6 +353,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -352,6 +371,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 	<test>
@@ -369,6 +389,7 @@
 		</groups>
 		<subsets>
 			<subset>8</subset>
+			<subset>11+</subset>
 		</subsets>
 	</test>
 </playlist>
