@@ -27,9 +27,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-CLSS-NON-AIX</testCaseName>
@@ -46,8 +46,9 @@
 			<group>jck</group>
 		</groups>
 		<subsets>
-			<subset>8</subset>
-		</subsets>
+			<subset>11</subset>
+		</subsets>	
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-CLSS-AIX</testCaseName>
@@ -63,9 +64,11 @@
 		<groups>
 			<group>jck</group>
 		</groups>
+		
 		<subsets>
-			<subset>8</subset>
-		</subsets>
+			<subset>11</subset>
+		</subsets>		
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-CONV</testCaseName>
@@ -80,9 +83,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-EXPR</testCaseName>
@@ -97,9 +100,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-INTF</testCaseName>
@@ -114,9 +117,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-LMBD</testCaseName>
@@ -145,9 +148,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-DASG</testCaseName>
@@ -162,9 +165,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-EXCP</testCaseName>
@@ -179,9 +182,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-EXEC</testCaseName>
@@ -196,9 +199,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-FP</testCaseName>
@@ -213,9 +216,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-ICLS</testCaseName>
@@ -230,9 +233,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-INFR</testCaseName>
@@ -247,9 +250,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-MOD</testCaseName>
@@ -264,9 +267,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-NAME</testCaseName>
@@ -281,9 +284,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-PKGS</testCaseName>
@@ -298,9 +301,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-THRD</testCaseName>
@@ -315,9 +318,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-TYPE</testCaseName>
@@ -332,9 +335,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-ANNOT</testCaseName>
@@ -349,9 +352,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-LEX</testCaseName>
@@ -366,9 +369,9 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 	<test>
 		<testCaseName>jck-runtime-lang-STMT</testCaseName>
@@ -383,8 +386,8 @@
 		<groups>
 			<group>jck</group>
 		</groups>
-		<subsets>
-			<subset>8</subset>
-		</subsets>
+		
+			
+		
 	</test>
 </playlist>
