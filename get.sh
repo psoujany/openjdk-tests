@@ -185,7 +185,7 @@ getBinaryOpenjdk()
 			curl_options="--user $USERNAME:$PASSWORD"
 		fi
 		images="test-images.tar.gz debug-image.tar.gz"
-		download_urls=($download_url)
+		download_urls= $download_url
 		# for now, auto-download is enabled only if users provide one URL and filename contains OpenJ9-JDK
 		if [[ "${#download_urls[@]}" == 1 ]]; then
 			download_filename=${download_url##*/}
