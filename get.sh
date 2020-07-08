@@ -184,24 +184,6 @@ getBinaryOpenjdk()
 		if [ "$USERNAME" != "" ] && [ "$PASSWORD" != "" ]; then
 			curl_options="--user $USERNAME:$PASSWORD"
 		fi
-		images="test-images.tar.gz debug-image.tar.gz"
-		download_urls=($download_url)
-		# for now, auto-download is enabled only if users provide one URL and filename contains OpenJ9-JDK
-		if [[ "${#download_urls[@]}" == 1 ]]; then
-			download_filename=${download_url##*/}
-			if [[ "$download_filename" =~ "OpenJ9-JDK" ]]; then
-				link=${download_url%$download_filename}
-				for image in $images
-				do
-					required=true
-					checkURL "$image"
-					if [[ $required != false ]]; then
-						download_url+=" ${link}${image}"
-						echo "auto download: ${link}${image}"
-					fi
-				done
-			fi
-		fi
 	elif [ "$SDK_RESOURCE" == "nightly" ] || [ "$SDK_RESOURCE" == "releases" ]; then
 		os=${PLATFORM#*_}
 		os=${os%_xl}
