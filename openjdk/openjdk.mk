@@ -113,7 +113,7 @@ else
 	JDK_CUSTOM_TARGET ?= test/jdk/java/math/BigInteger/BigIntegerTest.java
 endif
 
-JDK_NATIVE_OPTIONS :=
+JDK_NATIVE_OPTIONS := -nativepath:"$(TESTIMAGE_PATH)$(D)jdk$(D)jtreg$(D)native"
 JVM_NATIVE_OPTIONS :=
 CUSTOM_NATIVE_OPTIONS :=
 
