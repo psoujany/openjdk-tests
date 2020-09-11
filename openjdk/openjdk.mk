@@ -122,6 +122,9 @@ ifneq ($(JDK_VERSION),8)
 		ifneq ($(OS),OS/390)
 			JDK_NATIVE_OPTIONS := -nativepath:"$(TESTIMAGE_PATH)$(D)jdk$(D)jtreg$(D)native"
 		endif
+		ifeq ($(OS),OS/390)
+			JDK_NATIVE_OPTIONS := -nativepath:"$(TESTIMAGE_PATH)$(D)jdk$(D)jtreg$(D)native"
+		endif
 		ifeq ($(JDK_IMPL), hotspot)
 			JVM_NATIVE_OPTIONS := -nativepath:"$(TESTIMAGE_PATH)$(D)hotspot$(D)jtreg$(D)native"
 		else ifeq ($(JDK_IMPL), openj9)
