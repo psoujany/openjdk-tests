@@ -140,7 +140,6 @@ endif
 
 ifneq (,$(findstring openjceplus, $(EXTRA_OPTIONS)))
 	LIBPATH := ${TEST_JDK_HOME}$(D)lib$(D)icc$(P)${TEST_JDK_HOME}$(D)lib$(D)compressedrefs$(P)${TEST_JDK_HOME}$(D)lib
-	@echo $(LIBPATH)
 	export LIBPATH
 endif
 
