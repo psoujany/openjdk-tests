@@ -139,11 +139,10 @@ ifneq ($(JDK_VERSION),8)
 endif
 
 ifneq (,$(findstring openjceplus, $(EXTRA_OPTIONS)))
-	LIBPATH := ${TEST_JDK_HOME}$(D)lib$(D)icc
-	LIBPATH := ${TEST_JDK_HOME}$(D)lib$(D)compressedrefs
-	LIBPATH := ${TEST_JDK_HOME}$(D)lib
+	LIBPATH := ${TEST_JDK_HOME}$(D)lib$(D)icc$(P)${TEST_JDK_HOME}$(D)lib$(D)compressedrefs$(P)${TEST_JDK_HOME}$(D)lib
+	@echo $(LIBPATH)
+	export LIBPATH
 endif
-@echo $(LIBPATH)
 
 PROBLEM_LIST_FILE:=ProblemList_openjdk$(JDK_VERSION).txt
 PROBLEM_LIST_DEFAULT:=ProblemList_openjdk11.txt
