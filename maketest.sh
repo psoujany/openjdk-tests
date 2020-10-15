@@ -30,7 +30,7 @@ else
 fi
 
 if [[ $EXTRA_OPTIONS == *"openjceplus"* ]]; then
-	export LIBPATH = $JAVA_HOME/lib/icc:$JAVA_HOME/lib/compressedrefs:$JAVA_HOME/lib:$LIBPATH
-	print $LIBPATH
+	export LIBPATH = "$TEST_JDK_HOME/lib/icc:$TEST_JDK_HOME/lib/compressedrefs:$TEST_JDK_HOME/lib":$LIBPATH
+	echo $LIBPATH
 fi
 	
