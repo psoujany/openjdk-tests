@@ -523,7 +523,7 @@
 	</test>
 	<test>
 		<testCaseName>jdk_security2</testCaseName>
-		<command>$(JAVA_COMMAND) -Xmx512m -jar $(Q)$(TEST_RESROOT)$(D)jtreg$(D)lib$(D)jtreg.jar$(Q) \
+		<command>export LIBPATH=$(TEST_JDK_HOME)$(D)lib$(D)icc:$(TEST_JDK_HOME)$(D)lib$(D)compressedrefs:$(TEST_JDK_HOME)$(D)lib; $(JAVA_COMMAND) -Xmx512m -jar $(Q)$(TEST_RESROOT)$(D)jtreg$(D)lib$(D)jtreg.jar$(Q) \
 	$(JTREG_BASIC_OPTIONS) -vmoptions:$(Q)-Xmx512m $(JVM_OPTIONS)$(Q) \
 	-w $(Q)$(REPORTDIR)$(D)work$(Q) \
 	-r $(Q)$(TEST_RESROOT)$(D)report$(Q) \
