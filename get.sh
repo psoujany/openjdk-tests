@@ -336,7 +336,7 @@ getBinaryOpenjdk()
 				if [[ $jar_name == *zip || $jar_name == *jar ]]; then
 					unzip -q $jar_name -d ./tmp
 				else
-					gzip -cd $jar_name | tar xof - -C ./tmp
+					gzip -cd $jar_name | /usr/bin/tar xof - -C ./tmp
 				fi
 
 				cd ./tmp
