@@ -390,7 +390,7 @@ getOpenJDKSources() {
 	if [[ $sources_file == *zip || $sources_file == *jar ]]; then
 		unzip -q $sources_file -d .
 	else
-		gzip -cd $sources_file | tar xof -
+		gzip -cd $sources_file | /usr/bin/tar xof -
 	fi
 	rm $sources_file
 	folder=`ls -d */`
