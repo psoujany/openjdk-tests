@@ -748,7 +748,7 @@
 		<variations>
 			<variation>NoOptions</variation>
 		</variations>
-		<command>export DISPLAY=:1; JCK_CMD_TEMPLATE) -test-args=$(Q)tests=api/javax_sound,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
+		<command>export DISPLAY=:1; $(JCK_CMD_TEMPLATE) -test-args=$(Q)tests=api/javax_sound,jckRoot=$(JCK_ROOT),jckversion=$(JCK_VERSION),testsuite=RUNTIME$(Q); \
 	$(TEST_STATUS)</command>
 		<levels>
 			<level>sanity</level>
