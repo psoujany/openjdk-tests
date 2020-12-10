@@ -157,7 +157,7 @@
 						<if>
 							<contains string="${SPEC}" substring="zos"/>
 							<then>
-								<property name="regressionRepo" value="git@github.ibm.com:runtimes/${jdkName}.git" />
+								<property name="regressionRepo" value="git@github.ibm.com:psoujany/${jdkName}.git" />
 							</then>
 							<else>
 								<property name="regressionRepo" value="https://github.com/ibmruntimes/${jdkName}.git" />
