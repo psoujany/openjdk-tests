@@ -146,7 +146,7 @@
 							<else>
 								<if> <contains string="${SPEC}" substring="zos"/>
 									<then>
-										<property name="jdkName" value="openj9-openjdk-jdk${JDK_VERSION}-zos" />
+										<property name="jdkName" value="openj9-openjdk-jdk${JDK_VERSION}" />
 									</then>
 									<else>
 										<property name="jdkName" value="openj9-openjdk-jdk${JDK_VERSION}" />
