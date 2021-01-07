@@ -59,9 +59,9 @@ endif
 
 OTHER_OPTS=
 # if JDK_IMPL is openj9 or ibm
-ifneq ($(filter openj9 ibm, $(JDK_IMPL)),)
- OTHER_OPTS=-Xtrace:maximal=all{level2}
-endif
+#ifneq ($(filter openj9 ibm, $(JDK_IMPL)),)
+ #OTHER_OPTS=-Xtrace:maximal=all{level2}
+#endif
 
 SYSTEMTEST_RESROOT=$(TEST_RESROOT)/../../system
 
