@@ -110,6 +110,23 @@
 	</test>
 	<!-- Excluded from Windows due to https://github.com/AdoptOpenJDK/openjdk-systemtest/issues/198 -->
 	<!-- Temporarily excluding from z/OS due to : jdk11-zos/issues/567 -->
+	<!-- Adding TestJlmGCMXBeanNotifier to execute on z/OS with JDK11 -->
+	<test>
+		<testCaseName>TestJlmGCMXBeanNotifier</testCaseName>
+		<variations>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
+		</variations>
+		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=TestJlmGCMXBeanNotifier; \
+	$(TEST_STATUS)</command>
+		<levels>
+			<level>sanity</level>
+		</levels>
+		<groups>
+			<group>system</group>
+		</groups>
+	</test>
 	<test>
 		<testCaseName>TestJlmRemoteNotifierProxyAuth</testCaseName>
 		<variations>
