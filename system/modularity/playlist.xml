@@ -26,7 +26,9 @@
 	<test>
 		<testCaseName>CpMp_CpMp</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CpMpTest -test-args=$(Q)variant=CpMp$(Q); \
 	$(TEST_STATUS)</command>
@@ -43,7 +45,9 @@
 	<test>
 		<testCaseName>CpMp_MP</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CpMpTest -test-args=$(Q)variant=Mp$(Q); \
 	$(TEST_STATUS)</command>
@@ -60,7 +64,9 @@
 	<test>
 		<testCaseName>CpMp2</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CpMpTest2; \
 	$(TEST_STATUS)</command>
@@ -77,7 +83,9 @@
 	<test>
 		<testCaseName>CpMp3</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CpMpTest3; \
 	$(TEST_STATUS)</command>
@@ -94,7 +102,9 @@
 	<test>
 		<testCaseName>CpMpModJar</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CpMpModJar; \
 	$(TEST_STATUS)</command>
@@ -111,7 +121,9 @@
 	<test>
 		<testCaseName>CpMpModJar2</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CpMpModJar2; \
 	$(TEST_STATUS)</command>
@@ -128,7 +140,9 @@
 	<test>
 		<testCaseName>CpMpModJar3</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CpMpModJar3; \
 	$(TEST_STATUS)</command>
@@ -145,7 +159,9 @@
 	<test>
 		<testCaseName>InternalAPIs</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=InternalAPIs; \
 	$(TEST_STATUS)</command>
@@ -162,7 +178,9 @@
 	<test>
 		<testCaseName>AutoMod1</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=AutoModTest -test-args=$(Q)variant=AutoMod1$(Q); \
 	$(TEST_STATUS)</command>
@@ -179,7 +197,9 @@
 	<test>
 		<testCaseName>AutoMod2</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=AutoModTest -test-args=$(Q)variant=AutoMod2$(Q); \
 	$(TEST_STATUS)</command>
@@ -196,7 +216,9 @@
 	<test>
 		<testCaseName>AutoMod_Impl1</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=AutoModTest -test-args=$(Q)variant=Impl1$(Q); \
 	$(TEST_STATUS)</command>
@@ -213,7 +235,9 @@
 	<test>
 		<testCaseName>AutoMod_Impl2</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=AutoModTest -test-args=$(Q)variant=Impl2$(Q); \
 	$(TEST_STATUS)</command>
@@ -230,7 +254,9 @@
 	<test>
 		<testCaseName>AutoMod_Impl3</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=AutoModTest -test-args=$(Q)variant=Impl3$(Q); \
 	$(TEST_STATUS)</command>
@@ -251,7 +277,9 @@
 			<comment>https://github.com/AdoptOpenJDK/openjdk-systemtest/issues/200</comment>
 		</disabled>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=ExplMod; \
 	$(TEST_STATUS)</command>
@@ -270,7 +298,9 @@
 	<test>
 		<testCaseName>SLTest</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=SLTest; \
 	$(TEST_STATUS)</command>
@@ -289,7 +319,9 @@
 	<test>
 		<testCaseName>PatMod_PlatMod</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=PatModTest -test-args=$(Q)variant=PlatMod$(Q); \
 	$(TEST_STATUS)</command>
@@ -307,7 +339,9 @@
 	<test>
 		<testCaseName>PatMod_AppMod</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=PatModTest -test-args=$(Q)variant=AppMod$(Q); \
 	$(TEST_STATUS)</command>
@@ -324,7 +358,9 @@
 	<test>
 		<testCaseName>PatMod_Unex</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=PatModTest -test-args=$(Q)variant=Unex$(Q); \
 	$(TEST_STATUS)</command>
@@ -341,7 +377,9 @@
 	<test>
 		<testCaseName>PatMod_Adv</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=PatModTest -test-args=$(Q)variant=Adv$(Q); \
 	$(TEST_STATUS)</command>
@@ -361,7 +399,9 @@
 	<test>
 		<testCaseName>PatModImg_PlatMod</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=PatModImgTest -test-args=$(Q)variant=PlatMod$(Q); \
 	$(TEST_STATUS)</command>
@@ -380,7 +420,9 @@
 	<test>
 		<testCaseName>PatModImg_AppMod</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=PatModImgTest -test-args=$(Q)variant=AppMod$(Q); \
 	$(TEST_STATUS)</command>
@@ -399,7 +441,9 @@
 	<test>
 		<testCaseName>PatModImg_Unex</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=PatModImgTest -test-args=$(Q)variant=Unex$(Q); \
 	$(TEST_STATUS)</command>
@@ -418,7 +462,9 @@
 	<test>
 		<testCaseName>PatModImg_Adv</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=PatModImgTest -test-args=$(Q)variant=Adv$(Q); \
 	$(TEST_STATUS)</command>
@@ -436,7 +482,9 @@
 	<test>
 		<testCaseName>UpgModPath_Exp</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=UpgModPathTest -test-args=$(Q)variant=Exp$(Q); \
 	$(TEST_STATUS)</command>
@@ -454,7 +502,9 @@
 	<test>
 		<testCaseName>UpgModPath_ExpImg</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=UpgModPathTest -test-args=$(Q)variant=ExpImg$(Q); \
 	$(TEST_STATUS)</command>
@@ -472,7 +522,9 @@
 	<test>
 		<testCaseName>UpgModPath_Jar</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=UpgModPathTest -test-args=$(Q)variant=Jar$(Q); \
 	$(TEST_STATUS)</command>
@@ -490,7 +542,9 @@
 	<test>
 		<testCaseName>UpgModPath_JarImg</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=UpgModPathTest -test-args=$(Q)variant=JarImg$(Q); \
 	$(TEST_STATUS)</command>
@@ -510,7 +564,9 @@
 	<test>
 		<testCaseName>Jlink_ReqMod</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=JlinkTest -test-args=$(Q)variant=ReqdMod$(Q); \
 	$(TEST_STATUS)</command>
@@ -530,7 +586,9 @@
 	<test>
 		<testCaseName>Jlink_AddMLimitM</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=JlinkTest -test-args=$(Q)variant=AddMLimitM$(Q); \
 	$(TEST_STATUS)</command>
@@ -549,7 +607,9 @@
 	<test>
 		<testCaseName>CpMpJlink</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CpMpJlinkTest; \
 	$(TEST_STATUS)</command>
@@ -568,7 +628,9 @@
 	<test>
 		<testCaseName>Jlink_GenOpt</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=JlinkPluginTest -test-args=$(Q)variant=GenOpt$(Q); \
 	$(TEST_STATUS)</command>
@@ -586,7 +648,9 @@
 	<test>
 		<testCaseName>LayersTest</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=LayersTest -test-args=$(Q)heapsize=10m$(Q); \
 	$(TEST_STATUS)</command>
@@ -607,7 +671,9 @@
 	<test>
 		<testCaseName>CLTest</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CLTest -test-args=$(Q)variant=CLTest$(Q); \
 	$(TEST_STATUS)</command>
@@ -625,7 +691,9 @@
 	<test>
 		<testCaseName>CLTestImg</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CLTestImage -test-args=$(Q)variant=Img$(Q); \
 	$(TEST_STATUS)</command>
@@ -643,7 +711,9 @@
 	<test>
 		<testCaseName>CLLoad</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CLLoadTest; \
 	$(TEST_STATUS)</command>
@@ -663,7 +733,9 @@
 			<comment>https://github.com/AdoptOpenJDK/openjdk-systemtest/issues/197</comment>
 		</disabled>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CLStressLayers; \
 	$(TEST_STATUS)</command>
@@ -683,7 +755,9 @@
 			<comment>https://github.com/AdoptOpenJDK/openjdk-systemtest/issues/197</comment>
 		</disabled>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=CLStressCRI; \
 	$(TEST_STATUS)</command>

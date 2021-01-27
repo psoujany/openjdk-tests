@@ -20,7 +20,9 @@
 	<test>
 		<testCaseName>MathLoadTest_all</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=MathLoadTest; \
 	$(TEST_STATUS)</command>
@@ -34,7 +36,9 @@
 	<test>
 		<testCaseName>MathLoadTest_autosimd</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test-args=$(Q)workload=autoSimd$(Q) -test=MathLoadTest; \
 	$(TEST_STATUS)</command>
@@ -48,7 +52,9 @@
 	<test>
 		<testCaseName>MathLoadTest_bigdecimal</testCaseName>
 		<variations>
-			<variation>NoOptions</variation>
+			<variation>Mode150</variation>
+			<variation>Mode650</variation>
+			<variation>Mode1000</variation>
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=MathLoadTest -test-args=$(Q)workload=bigDecimal$(Q); \
 	$(TEST_STATUS)</command>
@@ -127,7 +133,6 @@
 			<variation>Mode103</variation>
 			<variation>Mode104</variation>
 			<variation>Mode107</variation>
-			<variation>Mode110</variation>
 			<variation>Mode112</variation>
 			<variation>Mode113</variation>
 			<variation>Mode121</variation>
@@ -144,7 +149,6 @@
 			<variation>Mode556</variation>
 			<variation>Mode557</variation>
 			<variation>Mode607</variation>
-			<variation>Mode610</variation>
 			<variation>Mode614</variation>
 			<variation>Mode615</variation>
 			<variation>Mode687</variation>
@@ -154,6 +158,7 @@
 			<variation>Mode610-OSRG</variation>
 			<variation>Mode612-OSRG</variation>
 			<variation>Mode645</variation>
+			<variation>-Xgcpolicy:gencon -Xgc:dynamicBreadthFirstScanOrdering</variation>
 			<!--Note: -Xint modes Mode108, Mode109, Mode109-CS, Mode159, Mode159-CS, Mode550 should be run manually -->
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=MathLoadTest; \
@@ -176,7 +181,6 @@
 			<variation>Mode103</variation>
 			<variation>Mode104</variation>
 			<variation>Mode107</variation>
-			<variation>Mode110</variation>
 			<variation>Mode112</variation>
 			<variation>Mode113</variation>
 			<variation>Mode121</variation>
@@ -193,7 +197,6 @@
 			<variation>Mode556</variation>
 			<variation>Mode557</variation>
 			<variation>Mode607</variation>
-			<variation>Mode610</variation>
 			<variation>Mode614</variation>
 			<variation>Mode615</variation>
 			<variation>Mode687</variation>
@@ -203,6 +206,7 @@
 			<variation>Mode610-OSRG</variation>
 			<variation>Mode612-OSRG</variation>
 			<variation>Mode645</variation>
+			<variation>-Xgcpolicy:gencon -Xgc:dynamicBreadthFirstScanOrdering</variation>
 			<!--Note: -Xint modes Mode108, Mode109, Mode109-CS, Mode159, Mode159-CS, Mode550 should be run manually -->
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test-args=$(Q)workload=autoSimd$(Q) -test=MathLoadTest; \
@@ -229,7 +233,6 @@
 			<variation>Mode103</variation>
 			<variation>Mode104</variation>
 			<variation>Mode107</variation>
-			<variation>Mode110</variation>
 			<variation>Mode112</variation>
 			<variation>Mode113</variation>
 			<variation>Mode121</variation>
@@ -246,7 +249,6 @@
 			<variation>Mode556</variation>
 			<variation>Mode557</variation>
 			<variation>Mode607</variation>
-			<variation>Mode610</variation>
 			<variation>Mode614</variation>
 			<variation>Mode615</variation>
 			<variation>Mode687</variation>
@@ -256,6 +258,7 @@
 			<variation>Mode610-OSRG</variation>
 			<variation>Mode612-OSRG</variation>
 			<variation>Mode645</variation>
+			<variation>-Xgcpolicy:gencon -Xgc:dynamicBreadthFirstScanOrdering</variation>
 			<!--Note: -Xint modes Mode108, Mode109, Mode109-CS, Mode159, Mode159-CS, Mode550 should be run manually -->
 		</variations>
 		<command>$(SYSTEMTEST_CMD_TEMPLATE) -test=MathLoadTest -test-args=$(Q)workload=bigDecimal$(Q); \
